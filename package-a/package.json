@@ -1,0 +1,11 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "dependencies": {
+    "is-even": "1.0.0"
+  },
+  "scripts": {
+    "preinstall": "echo \"Preinstall script\"",
+    "postinstall": "echo \"Postinstall script\""
+  }
+}

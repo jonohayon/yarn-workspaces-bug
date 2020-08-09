@@ -1,0 +1,10 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "dependencies": {
+    "is-even": "1.0.0"
+  },
+  "scripts": {
+    "preinstall": "echo \"This will fail\" && exit 1"
+  }
+}

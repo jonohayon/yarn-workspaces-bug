@@ -1,0 +1,10 @@
+{
+  "name": "package-c",
+  "version": "1.0.0",
+  "dependencies": {
+    "is-even": "1.0.0"
+  },
+  "scripts": {
+    "postinstall": "echo \"This will fail too\" && exit 1"
+  }
+}
